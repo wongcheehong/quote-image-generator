@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-serif {
+    font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+  
+  .font-sans {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-mono {
+    font-family: "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+  }
+  
+  .font-cursive {
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .font-elegant {
+    font-family: "Cormorant Garamond", serif;
+  }
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@400;500&family=JetBrains+Mono&family=Dancing+Script:wght@400;600&family=Cormorant+Garamond:wght@400;600&display=swap');
